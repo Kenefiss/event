@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -10,6 +11,7 @@ html {
 
 a {
   display: inline-block;
+  text-decoration: none;
 }
 
 ul,
@@ -19,4 +21,26 @@ li {
   list-style: none;
 }
 
-body {}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 0px;
+}
+
+body {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1370px;
+  padding: 0 20px;
+}
