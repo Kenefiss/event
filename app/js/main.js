@@ -10,6 +10,9 @@ var mySwiper = new Swiper('.swiper-container', {
   }
 });
 
+new WOW().init();
+
 $(function () {
+
 
 });

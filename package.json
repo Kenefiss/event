@@ -21,6 +21,9 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "swiper": "^5.3.6"
+    "animate.css": "^3.7.2",
+    "jquery-circle-progress": "^1.2.2",
+    "swiper": "^5.3.6",
+    "wow.js": "^1.2.2"
   }
 }
