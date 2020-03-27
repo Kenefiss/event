@@ -178,7 +178,6 @@
 
 #confeti-3 {
   animation: swing 1s ease-in-out 3s infinite alternate both;
-
 }
 
 #confeti-4 {
@@ -436,6 +435,48 @@
   left: -44px;
   top: 4px;
   z-index: -1;
+}
+
+#r-hand {
+  animation: swing-team 1s ease-in-out 2s infinite alternate both;
+  transform-origin: top;
+}
+
+#r-hand-2 {
+  animation: swing-team 1s ease-in-out 2s infinite alternate both;
+  transform-origin: bottom;
+}
+
+#head {
+  animation: swing-team 1s ease-in-out 2.2s infinite alternate both;
+  transform-origin: top;
+}
+
+#l-hand {
+  animation: swing-team 1s ease-in-out 1.7s infinite alternate both;
+  transform-origin: top;
+}
+
+#hair {
+  animation: swing-team 1s ease-in-out 2.5s infinite alternate both;
+  transform-origin: top;
+}
+
+#hair-2 {
+  animation: swing-team 1s ease-in-out 2.5s infinite alternate both;
+
+}
+
+@keyframes swing-team {
+  0% {
+    transform: rotateZ(2deg);
+    transform-box: fill-box;
+  }
+
+  100% {
+    transform: rotateZ(5deg);
+    transform-box: fill-box;
+  }
 }
 
 //*********** Stats ***********
