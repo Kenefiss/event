@@ -15,7 +15,7 @@
 <body>
 
   <!----------- Header ------------>
-  <header class="header">
+  <header class="header" id="header">
     <div class=" container">
       <div class="header__inner">
 
@@ -24,13 +24,16 @@
         </a>
 
         <nav class="header__menu">
-          <ul>
-            <li><a href="a">home</a></li>
-            <li><a href="a">event</a></li>
-            <li><a href="a">services</a></li>
-            <li><a href="a">our team</a></li>
-            <li><a href="a">reviews</a></li>
-            <li><a href="a">contacts</a></li>
+          <div class="header__menu-btn">
+            <div class="burger"></div>
+          </div>
+          <ul class="menu__list">
+            <li><a href="#header">home</a></li>
+            <li><a href="#event">event</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#team">our team</a></li>
+            <li><a href="#stats">reviews</a></li>
+            <li><a href="#footer">contacts</a></li>
           </ul>
         </nav>
 
@@ -570,7 +573,7 @@
   </section>
 
   <!----------- Event ------------>
-  <section class="event">
+  <section class="event" id="event">
     <div class="container">
       <div class="event__inner swiper-container">
 
@@ -622,7 +625,7 @@
   </section>
 
   <!----------- Services ------------>
-  <section class="services">
+  <section class="services" id="services">
     <div class="container">
       <div class="services__title wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
         OUR services
@@ -725,7 +728,7 @@
   </section>
 
   <!----------- Team ------------>
-  <section class="team">
+  <section class="team" id="team">
     <div class="container">
 
       <div class="team__title">
@@ -734,7 +737,7 @@
 
       <div class="team__items">
 
-        <div class="team__item">
+        <div class="team__item top">
           <div class="team__item-img">
             <svg width="261" height="247" viewBox="0 0 261 247" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="1">
@@ -792,7 +795,7 @@
           </div>
         </div>
 
-        <div class="team__item">
+        <div class="team__item top">
           <div class="team__item-img">
             <svg width="216" height="247" viewBox="0 0 216 247" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="2">
@@ -915,7 +918,7 @@
   </section>
 
   <!----------- Stats ------------>
-  <section class="stats">
+  <section class="stats" id="stats">
     <div class="container">
 
       <div class="stats__title wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
@@ -967,7 +970,7 @@
   </section>
 
   <!----------- Footer ------------>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container">
       <div class="footer__inner">
 
