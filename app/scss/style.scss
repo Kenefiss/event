@@ -466,6 +466,10 @@
 .team__item-img {
   padding-bottom: 33px;
 
+  svg {
+    overflow: visible;
+  }
+
   &.team-bg {
     position: relative;
   }
