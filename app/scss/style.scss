@@ -277,7 +277,7 @@
 }
 
 .swiper-slide-active {
-  scale: 1.7;
+  transform: scale(1.7);
   opacity: 1;
   padding-top: 50px;
 
@@ -435,6 +435,7 @@
 
 .team {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .team__title {

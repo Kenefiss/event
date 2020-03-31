@@ -1,6 +1,6 @@
 @media (max-width: 1240px) {
   .swiper-slide-active {
-    scale: 1;
+    transform: scale(1);
     padding-top: 30px;
 
     .image__name {
@@ -41,7 +41,7 @@
   .vector-img {
     left: -123px;
     bottom: -151px;
-    scale: .9;
+    transform: scale(.9);
   }
 
   .team__item-text {
@@ -136,7 +136,7 @@
 
 @media (max-width: 923px) {
   .swiper-slide-active {
-    scale: 1.7;
+    transform: scale(1.7);
     padding-top: 50px;
 
     .image__name {
@@ -215,8 +215,7 @@
   }
 
   .swiper-slide-active {
-    scale: 1.2;
-
+    transform: scale(1.2);
   }
 
   .event__inner {
@@ -244,7 +243,7 @@
 
 @media (max-width: 400px) {
   .swiper-slide-active {
-    scale: .8;
+    transform: scale(.8);
   }
 
   .button-prev,
@@ -252,11 +251,11 @@
     width: 36px;
     height: 36px;
 
-    img {
-      scale: .7;
-      left: 45%;
-      top: 40%;
-    }
+    // img {
+    //   transform: scale(.7);
+    //   left: 45%;
+    //   top: 40%;
+    // }
   }
 
   .event__inner {
