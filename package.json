@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://Kenefiss.github.io/event",
   "scripts": {
+    "deploy": "gh-pages -d app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Taras Shevchenko",
@@ -22,6 +24,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
+    "gh-pages": "^3.0.0",
     "jquery-circle-progress": "^1.2.2",
     "swiper": "^5.3.6",
     "wow.js": "^1.2.2"
